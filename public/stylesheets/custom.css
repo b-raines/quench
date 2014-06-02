@@ -1,0 +1,354 @@
+/* variables */
+/* mixins */
+/* index.liquid 'main' block */
+/* line 21, _index.sass */
+.intro-slider {
+  min-height: 50px;
+  min-width: 50px;
+  background-color: #eeeeee;
+  border: 15px double white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 27, _index.sass */
+.intro-slider img {
+  max-height: 580px;
+}
+
+/* line 31, _index.sass */
+.intro h2 {
+  margin-top: 5px;
+  color: #ff6b00;
+  text-align: center;
+}
+/* line 35, _index.sass */
+.intro p {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 17px;
+}
+
+/* line 40, _index.sass */
+.intro-section {
+  margin-bottom: 50px;
+}
+
+/* line 43, _index.sass */
+.blender {
+  width: 34%;
+  max-width: 180px;
+}
+
+/* line 47, _index.sass */
+.blender-container {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* line 51, _index.sass */
+.grandma {
+  width: 25%;
+  max-width: 130px;
+}
+
+/* line 55, _index.sass */
+.grandma-container {
+  margin-top: 25px;
+  text-align: center;
+}
+
+/* line 59, _index.sass */
+#mc_embed_signup {
+  margin-top: 30px;
+  padding: 0;
+  background: white;
+  clear: left;
+}
+/* line 64, _index.sass */
+#mc_embed_signup label {
+  text-transform: uppercase;
+  font-family: "Gloria Hallelujah", cursive;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  font-size: 19px;
+}
+/* line 70, _index.sass */
+#mc_embed_signup .deals {
+  font-family: "Gloria Hallelujah", cursive;
+  color: #ff4368;
+  font-size: 16px;
+}
+
+/* line 75, _index.sass */
+#mc-embedded-subscribe-form {
+  padding-left: 5px !important;
+}
+/* line 77, _index.sass */
+#mc-embedded-subscribe-form .email {
+  width: -webkit-calc(100% - 5px) !important;
+  width: -moz-calc(100% - 5px) !important;
+  width: calc(100% - 5px) !important;
+}
+
+/* line 80, _index.sass */
+#mc-embedded-subscribe {
+  width: 140px !important;
+  height: 45px !important;
+  background-color: #00af40 !important;
+}
+
+/* Variables */
+/* mixins */
+@media (max-width: 1200px) {
+  /* line 13, _media_queries.sass */
+  .intro-slider img {
+    width: 500px;
+    height: auto;
+  }
+}
+@media (max-width: 991px) {
+  /* line 18, _media_queries.sass */
+  .blender-container {
+    margin-top: 30px;
+  }
+
+  /* line 20, _media_queries.sass */
+  .navbar-nav li {
+    margin-top: 0;
+    border-top: 1px solid #eeeeee;
+  }
+
+  /* line 23, _media_queries.sass */
+  .intro-slider {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  /* line 27, _media_queries.sass */
+  .social-media-nav {
+    position: static !important;
+    text-align: right;
+  }
+}
+@media (max-width: 640px) {
+  /* line 33, _media_queries.sass */
+  .menu th, .menu td {
+    display: block;
+  }
+  /* line 35, _media_queries.sass */
+  .menu th {
+    width: 100% !important;
+  }
+}
+@media (max-width: 540px) {
+  /* line 39, _media_queries.sass */
+  .intro-slider img {
+    width: 400px;
+  }
+}
+@media (max-width: 460px) {
+  /* line 43, _media_queries.sass */
+  .logo-image {
+    width: 280px !important;
+    position: relative;
+    left: -20px;
+  }
+}
+@media (max-width: 440px) {
+  /* line 49, _media_queries.sass */
+  .intro-slider img {
+    width: 320px;
+  }
+}
+/* Variables */
+/* line 10, _menu.sass */
+.tab-content {
+  margin-top: 50px;
+}
+
+/* line 14, _menu.sass */
+.menu tr {
+  height: 60px;
+  font-family: "Gloria Hallelujah", cursive;
+}
+/* line 17, _menu.sass */
+.menu tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+/* line 20, _menu.sass */
+.menu td {
+  font-size: 16px;
+}
+/* line 22, _menu.sass */
+.menu th {
+  font-size: 18px;
+  width: 180px;
+}
+
+/* line 26, _menu.sass */
+#smoothies td {
+  color: #ff4368;
+}
+
+/* line 29, _menu.sass */
+#juices td {
+  color: #00af40;
+}
+
+/* line 32, _menu.sass */
+.menu-nav {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+/* line 37, _menu.sass */
+.menu-nav a {
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+/* line 41, _menu.sass */
+.menu-nav a:hover {
+  color: #ff6b00 !important;
+  background-color: white !important;
+}
+/* line 44, _menu.sass */
+.menu-nav .active a {
+  color: #ff6b00 !important;
+  background-color: white !important;
+}
+
+/* line 49, _menu.sass */
+#specialty th {
+  width: 260px;
+}
+
+/* line 52, _menu.sass */
+.menu-nav li {
+  margin: 0 auto !important;
+  width: 130px;
+}
+
+@block import 'Compass';
+/* variables */
+/* line 8, _about.sass */
+.about-img-container {
+  margin-bottom: 30px;
+}
+/* line 10, _about.sass */
+.about-img-container img {
+  border: 2px solid #aaaaaa;
+  margin: 0 auto;
+}
+
+/* Variables */
+/* Defaults */
+/* line 18, custom.css.sass */
+html, body {
+  height: 100%;
+}
+
+/* line 21, custom.css.sass */
+.wrap {
+  min-height: 86%;
+}
+
+/* line 24, custom.css.sass */
+.left {
+  float: left;
+}
+
+/* line 27, custom.css.sass */
+.right {
+  float: right;
+}
+
+/* line 30, custom.css.sass */
+.clear {
+  clear: both;
+}
+
+/* line 33, custom.css.sass */
+.list-unstyled {
+  list-style-type: none;
+}
+
+/* line 36, custom.css.sass */
+.orange {
+  color: #ff6b00;
+}
+
+/* line 39, custom.css.sass */
+.green {
+  color: #00af40;
+}
+
+/* line 42, custom.css.sass */
+.pink {
+  color: #ff4368;
+}
+
+/* Navbar */
+/* line 46, custom.css.sass */
+.navbar {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* line 50, custom.css.sass */
+.logo-image {
+  width: 320px;
+  height: auto;
+}
+
+/* line 54, custom.css.sass */
+.navbar-nav {
+  padding: 0 20px;
+  font-size: 24px;
+}
+/* line 57, custom.css.sass */
+.navbar-nav a {
+  margin-top: 5px;
+  color: #00af40;
+}
+/* line 60, custom.css.sass */
+.navbar-nav a:hover {
+  background-color: white !important;
+  color: rgba(0, 175, 64, 0.8);
+}
+
+/* line 64, custom.css.sass */
+.social-media-nav {
+  position: relative;
+  left: 150px;
+  margin: 10px 2px;
+}
+/* line 68, custom.css.sass */
+.social-media-nav li {
+  border-top: none;
+}
+/* line 70, custom.css.sass */
+.social-media-nav li a {
+  display: inline;
+  padding: 3px;
+}
+
+/* Footer */
+/* line 76, custom.css.sass */
+.main-footer {
+  height: 120px;
+  padding: 50px 20px 0;
+}
+
+/* line 80, custom.css.sass */
+.footer-nav-list {
+  text-align: center;
+}
+/* line 82, custom.css.sass */
+.footer-nav-list a {
+  color: #ff6b00;
+}

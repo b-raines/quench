@@ -1,0 +1,75 @@
+- "Island Breeze":
+    description: "Mango, Pineapple, Strawberry, Banana, Coconut flakes, Raw Honey, and Almond Milk"
+    type: "smoothie"
+
+- "Vanilla Volcano":
+    description: "Fresh Spinach, Strawberry, Pineapple, Banana, with a hint of Vanilla Extract, Raw Honey, and Fat Free Yogurt"
+    type: "smoothie"
+
+- "Berry Blast":
+    description: "Blueberry, Strawberry, Raspberry, Blackberry, Fat Free Yogurt, and Agave Nectar"
+    type: "smoothie"
+
+- "Peggotty Punch":
+    description: "Mango, Bell Pepper, Blueberry, Spinach, Hemp Protein, Agave, and Coconut Milk"
+    type: "smoothie"
+
+- "Muscle Beach":
+    description: "Blueberry, Strawberry, Banana, Whey Protein, All Natural Peanut Butter, and Chocolate Almond Milk"
+    type: "smoothie"
+
+- "Focus Pocus":
+    description: "Orange, Blueberry, Gingko Biloba Powder, Semi-sweet cocoa, and Coconut Milk"
+    type: "smoothie"
+
+- "Morning Buzz":
+    description: "Banana, All Natural Peanut Butter, Greek Yogurt, Almond Milk, Cinnamon, and Coffee"
+    type: "smoothie"
+
+- "Liquid Sunshine":
+    description: "Apple, Carrot, Strawberry, Orange, Raspberry, and Kale"
+    type: "juice"
+
+- '"C" Turtle':
+    description: "Orange, Apple, Lime, Grapefruit, Papaya, and Mint"
+    type: "juice"
+
+- "Green Machine":
+    description: "Kale, Spinach, Celery, Kiwi, Cucumber, and Mint"
+    type: "juice"
+
+- "Dottie's Detox":
+    description: "Cucumber, Apple, Ginger, Lemon, and Mint (optional: add cayenne)"
+    type: "juice"
+
+- "Cold Kicker":
+    description: "Grapefruit, Apple, Kiwi, Ginger, Cayenne"
+    type: "juice"
+
+- "Can't be Beet":
+    description: "Carrot, Apple, Orange, Beet, and Ginger"
+    type: "juice"
+
+- "Bloody Boring":
+    description: "Fresh Tomato, Lemon, Lime, Celery, Cilantro, Horseradish, and Sriracha!"
+    type: "juice"
+
+- "Wheat grass shot":
+    description: ""
+    type: "specialty"
+
+- "Ginger shot":
+    description: ""
+    type: "specialty"
+
+- "Specialty shot":
+    description: ""
+    type: "specialty"
+
+- "Homemade almond milk":
+    description: ""
+    type: "specialty"
+
+- "Homemade cashew milk":
+    description: ""
+    type: "specialty"

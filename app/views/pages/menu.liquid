@@ -1,0 +1,85 @@
+---
+title: Menu
+
+# true if the page is included in the menu
+listed: true
+
+# true if the page is published
+published: true
+
+# position among sibling pages
+# position: 1
+
+# sets a redirection to the given url (301)
+# redirect_url: "<url to a page or to a remote url>"
+
+# content type that this page is templatizing
+# content_type: "<slug of one of the content types>"
+
+# editable_elements:
+#   'some_block/some_slug': "<text>"
+#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
+---
+{% extends parent %}
+
+{% block main %}
+
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-pills nav-stacked menu-nav col-md-2">
+      <li class="active"><a href="#smoothies" data-toggle="tab">Smoothies</a></li>
+      <li><a href="#juices" data-toggle="tab">Juices</a></li>
+      <li><a href="#specialty" data-toggle="tab">Specialty</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+
+    <div class="menu-container col-md-10 tab-pane fade in active" id="smoothies">
+      <table class="table menu">
+        {% for product in contents.products %}
+          {% if product.type == 'smoothie' %}
+            <tr>
+              <th>{{ product.title }}</th>
+              {% unless product.description == '' %}
+                <td><span class="green">* </span>{{ product.description }}</td>
+              {% endunless %}
+            </tr>
+          {% endif %}
+        {% endfor %}
+      </table>
+    </div>
+
+    <div class="menu-container col-md-10 fade tab-pane" id="juices">
+      <table class="table menu">
+        {% for product in contents.products %}
+          {% if product.type == 'juice' %}
+            <tr>
+              <th>{{ product.title }}</th>
+              {% unless product.description == '' %}
+                <td><span class="pink">* </span>{{ product.description }}</td>
+              {% endunless %}
+            </tr>
+          {% endif %}
+        {% endfor %}
+      </table>
+    </div>
+
+    <div class="menu-container col-md-10 fade tab-pane" id="specialty">
+      <table class="table menu">
+        {% for product in contents.products %}
+          {% if product.type == 'specialty' %}
+            <tr>
+              <th>{{ product.title }}</th>
+              {% unless product.description == '' %}
+                <td>{{ product.description }}</td>
+              {% endunless %}
+            </tr>
+          {% endif %}
+        {% endfor %}
+      </table>
+    </div>
+
+  </div>
+
+{% endblock %}

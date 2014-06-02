@@ -1,0 +1,84 @@
+@import 'index'
+@import 'media_queries'
+@import 'menu'
+@import 'about'
+
+/* Variables */
+
+$light_gray:  #eee
+$gray: #aaa
+$dark_gray: #777
+$dark_brown: #524221
+$orange: #FF6B00
+$green: #00AF40
+$pink: #FF4368
+
+/* Defaults */
+
+html, body
+  height: 100%
+
+.wrap
+  min-height: 86%
+
+.left
+  float: left
+
+.right
+  float: right
+
+.clear
+  clear: both
+
+.list-unstyled
+  list-style-type: none
+
+.orange
+  color: $orange
+
+.green
+  color: $green
+
+.pink
+  color: $pink
+
+/* Navbar */
+.navbar
+  position: relative
+  margin-bottom: 20px
+
+.logo-image
+  width: 320px
+  height: auto
+
+.navbar-nav
+  padding: 0 20px
+  font-size: 24px
+  a
+    margin-top: 5px
+    color: $green
+    &:hover
+      background-color: white !important
+      color: rgba($green, 0.8)
+
+.social-media-nav
+  position: relative
+  left: 150px
+  margin: 10px 2px
+  li
+    border-top: none
+    a
+      display: inline
+      padding: 3px
+
+/* Footer */
+
+.main-footer
+  height: 120px
+  padding: 50px 20px 0
+
+.footer-nav-list
+  text-align: center 
+  a
+    color: $orange
+

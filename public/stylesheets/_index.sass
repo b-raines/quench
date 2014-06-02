@@ -1,0 +1,83 @@
+@import 'Compass'
+
+/* variables */
+
+$orange: #FF6B00
+$light_gray: #eee
+$gray: #aaa
+$dark_gray: #777
+$green: #00AF40
+$pink: #FF4368
+
+/* mixins */
+
+=calc($property, $expression)
+  #{$property}: -webkit-calc(#{$expression}) !important
+  #{$property}: -moz-calc(#{$expression}) !important
+  #{$property}: calc(#{$expression}) !important
+
+/* index.liquid 'main' block */
+
+.intro-slider
+  min-height: 50px
+  min-width: 50px
+  background-color: $light_gray
+  border: 15px double white
+  +border-radius(5px)
+  img
+    max-height: 580px
+
+.intro
+  h2
+    margin-top: 5px
+    color: $orange
+    text-align: center
+  p
+    margin-bottom: 10px
+    text-align: center
+    font-size: 17px
+
+.intro-section
+  margin-bottom: 50px
+
+.blender
+  width: 34%
+  max-width: 180px
+
+.blender-container
+  margin-top: 15px
+  text-align: center
+
+.grandma
+  width: 25%
+  max-width: 130px
+
+.grandma-container
+  margin-top: 25px
+  text-align: center
+
+#mc_embed_signup
+  margin-top: 30px
+  padding: 0
+  background: #fff
+  clear: left
+  label
+    text-transform: uppercase
+    font-family: 'Gloria Hallelujah', cursive
+    margin-bottom: 0 !important
+    padding-bottom: 0 !important
+    font-size: 19px
+  .deals
+    font-family: 'Gloria Hallelujah', cursive
+    color: $pink
+    font-size: 16px
+
+#mc-embedded-subscribe-form
+  padding-left: 5px !important
+  .email
+    +calc(width, "100% - 5px")
+
+#mc-embedded-subscribe
+  width: 140px !important
+  height: 45px !important
+  background-color: $green !important

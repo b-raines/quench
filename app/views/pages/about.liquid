@@ -1,0 +1,65 @@
+---
+title: About us
+
+# true if the page is included in the menu
+listed: true
+
+# true if the page is published
+published: true
+
+# position among sibling pages
+# position: 1
+
+# sets a redirection to the given url (301)
+# redirect_url: "<url to a page or to a remote url>"
+
+# content type that this page is templatizing
+# content_type: "<slug of one of the content types>"
+
+# editable_elements:
+#   'some_block/some_slug': "<text>"
+#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
+---
+{% extends parent %}
+
+{% block main %}
+
+    {% capture photo %}{% editable_file 'photo' %}/samples/pages/em_and_pat.jpg{% endeditable_file %}{% endcapture %}
+
+    <div class="about-img-container">
+      <img class="img-responsive" src="{{ photo | resize: '620x' }}">
+    </div>
+
+    <div class="about-info">
+
+      <div class="row">
+        <div class="about-text col-md-8 col-md-offset-2">
+          {% editable_text 'about-heading-1' %}
+            <h3>Emily Farr</h3>
+          {% endeditable_text %}
+          {% editable_text 'about-text-1' %}
+            <p>
+              <em>Co-Founder and Owner</em></br>
+              University of Arizona class of 2005 - Bachelor of Science in Business Management</br></br>
+              Emily has 5 years experience working in the hospitality management field as well as 4 years experience working in various executive support and investor relations roles within the private equity industry. Emily is an avid runner, hiker, hot yogi, lover of sunshine, and firmly believes in the power of food over medicine for the healing of both physical and mental ailments.  A self proclaimed “health nut” for as long as she can remember who has always dreamt about opening a health conscious business of her own to help educate others.
+            </p>
+          {% endeditable_text %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="about-text col-md-8 col-md-offset-2">
+          {% editable_text 'about-heading-2' %}
+            <h3>Patrick Farr</h3>
+          {% endeditable_text %}
+          {% editable_text 'about-text-2' %}
+            <p>
+              <em>Co-Founder and Owner</em></br>
+              Bentley University class of 2001 – Bachelor of Science in Economics / Finance</br></br>
+              Patrick has 12+ years experience in various financial roles within the banking, venture capital, assent management and insurance industries. Patrick is an avid runner, completed 50+ organized road races, including 6 full marathons, 5 sprint triathlons, and 2 fifty mile bike races. Founder and promoter of Sharksbite Road Runners in Charlotte, NC.  Also, a passion for living a healthy lifestyle, including eating local healthy food and preparing and consuming fresh juices daily.
+            </p>
+          {% endeditable_text %}
+        </div>
+      </div>
+
+{% endblock %}
