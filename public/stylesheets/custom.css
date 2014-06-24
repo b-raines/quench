@@ -16,7 +16,7 @@
 }
 /* line 28, _index.sass */
 .intro-slider img {
-  max-height: 580px;
+  max-height: 620px;
 }
 
 /* line 32, _index.sass */
@@ -236,13 +236,18 @@
 }
 @media (max-width: 400px) {
   /* line 66, _media_queries.sass */
+  #mc_embed_signup input {
+    margin: 10px auto !important;
+  }
+
+  /* line 68, _media_queries.sass */
   .fb-like-box {
     padding: 10px 0 25px 0 !important;
     width: 300px !important;
     position: relative !important;
     left: -5px !important;
   }
-  /* line 71, _media_queries.sass */
+  /* line 73, _media_queries.sass */
   .fb-like-box iframe {
     position: relative !important;
     left: -7.5px !important;
