@@ -54,22 +54,26 @@
     description: "Fresh Tomato, Lemon, Lime, Celery, Cilantro, Horseradish, and Sriracha!"
     type: "juice"
 
-- "Wheat grass shot":
-    description: ""
+- "Wheat Grass Shot":
+    description: "One shot of wheatgrass is equivalent to 2 pounds of vegetables!  Locally grown right up the road at R&C Farms in Scituate!"
     type: "specialty"
 
-- "Ginger shot":
-    description: ""
+- "Ginger Shot":
+    description: 'Everyone''s favorite "anti"!  Anti-viral, anti-septic, anti-histamine, anti-inflammatory and just great if you have a head cold or sinus congestion!'
     type: "specialty"
 
-- "Specialty shot":
-    description: ""
+- "Specialty Shot":
+    description: "Locally grown wheatgrass with your choice of strawberry, blueberry, blackberry, or raspberry for added flavor!"
     type: "specialty"
 
-- "Homemade almond milk":
-    description: ""
+- "Homemade Cashew Milk":
+    description: "Raw cashews soaked for 4 hours then blended; add cinnamon, honey, sea salt, and vanilla!"
     type: "specialty"
 
-- "Homemade cashew milk":
-    description: ""
+- "Almond Butter":
+    description: "Raw almonds blended up; add coconut oil, and sea salt!"
+    type: "specialty"
+
+- "Bianca's Raw Energy Bites":
+    description: "Secret recipe, come in and have a bite!"
     type: "specialty"

@@ -27,6 +27,14 @@ published: true
   </head>
 
   <body>        
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=768733519836273&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <div class="container wrap">
 
@@ -38,13 +46,13 @@ published: true
                 <img src="{{ 'web_logo.png' | theme_image_url }}" alt="quench logo" class="logo-image">
               </a>
             </div>
-            <ul class="nav navbar-nav social-media-nav">
-              <li>
-                <a href="https://www.facebook.com/QuenchJuiceryLLC"><img src="{{ 'facebook.png' | theme_image_url }}" alt="facebook logo"></a>
-                <a href="#"><img src="{{ 'twitter.png' | theme_image_url }}" alt="twitter logo"></a>
-                <a href="#"><img src="{{ 'instagram.png' | theme_image_url }}" alt="instagram logo"></a>
-              </li>
-            </ul>
+            {% comment %} <ul class="nav navbar-nav social-media-nav"> {% endcomment %}
+            {% comment %}   <li> {% endcomment %}
+            {% comment %}     <a href="https://www.facebook.com/QuenchJuiceryLLC"><img src="{{ 'facebook.png' | theme_image_url }}" alt="facebook logo"></a> {% endcomment %}
+            {% comment %}     <a href="#"><img src="{{ 'twitter.png' | theme_image_url }}" alt="twitter logo"></a> {% endcomment %}
+            {% comment %}     <a href="#"><img src="{{ 'instagram.png' | theme_image_url }}" alt="instagram logo"></a> {% endcomment %}
+            {% comment %}   </li> {% endcomment %}
+            {% comment %} </ul> {% endcomment %}
             <ul class="nav navbar-nav navbar-right">
               <li><a href="/menu">Menu</a></li>
               <li><a href="/about">About Us</a></li>
@@ -55,10 +63,11 @@ published: true
 
       {% block 'main' %}
 
-    {% capture slider_photo_1 %}{% editable_file 'photo_1' %}/samples/pages/jars.jpg{% endeditable_file %}{% endcapture %}
-    {% capture slider_photo_2 %}{% editable_file 'photo_2' %}/samples/pages/em_juicing.jpg{% endeditable_file %}{% endcapture %}
-    {% capture slider_photo_3 %}{% editable_file 'photo_3' %}/samples/pages/pat_juicing_grass.jpg{% endeditable_file %}{% endcapture %}
-    {% capture slider_photo_4 %}{% editable_file 'photo_4' %}/samples/pages/em_serving.jpg{% endeditable_file %}{% endcapture %}
+    {% capture slider_photo_1 %}{% editable_file 'photo_1' %}/samples/pages/quench_jars.jpg{% endeditable_file %}{% endcapture %}
+    {% capture slider_photo_2 %}{% editable_file 'photo_2' %}/samples/pages/quench.jpg{% endeditable_file %}{% endcapture %}
+    {% capture slider_photo_3 %}{% editable_file 'photo_3' %}/samples/pages/em_juicing.jpg{% endeditable_file %}{% endcapture %}
+    {% capture slider_photo_4 %}{% editable_file 'photo_4' %}/samples/pages/pat_juicing_grass.jpg{% endeditable_file %}{% endcapture %}
+    {% capture slider_photo_5 %}{% editable_file 'photo_5' %}/samples/pages/em_serving.jpg{% endeditable_file %}{% endcapture %}
 
         <div class="row">
           <div class="col-md-7">
@@ -67,61 +76,36 @@ published: true
               <img data-slidr="two" src="{{ slider_photo_2 | resize: '580x' }}">
               <img data-slidr="three" src="{{ slider_photo_3 | resize: '580x' }}">
               <img data-slidr="four" src="{{ slider_photo_4 | resize: '580x' }}">
+              <img data-slidr="five" src="{{ slider_photo_5 | resize: '580x' }}">
             </div>
           </div>
 
           <div class="col-md-5 intro">
-            <section class="intro-section">
-              <div class="blender-container">
-                <img src="{{ 'blender.png' | theme_image_url }}" alt="blender icon" class="blender" />
-              </div>
-              {% editable_text 'intro-heading-1' %}
-                <h2>Fresh. Juice. Now.</h2>
-              {% endeditable_text %}
-              {% editable_text 'intro-text-1' %}
-                <p>
-                  We use only fresh ingredients from local farms.
-                </p>
-              {% endeditable_text %}
-            </section>
 
             <section class="intro-section">
-              <div class="grandma-container">
-                <img src="{{ 'grandma.png' | theme_image_url }}" alt="grandma icon" class="grandma">
+
+              <!-- Begin MailChimp Signup Form -->
+              <div id="mc_embed_signup">
+                <form action="http://quench-juicery.us8.list-manage.com/subscribe/post?u=6be4c9dd7830d338992b4d739&amp;id=fccdfc9162" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  {% editable_text 'signup-text' %}
+                    <label for="mce-EMAIL">Sign up for our mailing list</label>
+                  {% endeditable_text %}
+                  {% editable_text 'signup-subtext %}
+                    <span class="deals">&nbsp; * Get special deals and offers</span>
+                  {% endeditable_text %}
+                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_6be4c9dd7830d338992b4d739_fccdfc9162" tabindex="-1" value=""></div>
+                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </form>
               </div>
-              {% editable_text 'intro-heading-2' %}
-                <h2>Not your grandma's juice</h2>
-              {% endeditable_text %}
-              {% editable_text 'intr-text-2' %}
-                <p>
-                  We use state of the art equipment to extract all of the stuff you want, and none that you don't.
-                </p>
-              {% endeditable_text %}
+              <!--End mc_embed_signup-->
+
+              <div class="fb-like-box" data-href="https://www.facebook.com/QuenchJuiceryLLC" data-height="478" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>
             </section>
           </div>
         </div>
 
-        <!-- Begin MailChimp Signup Form -->
-        <style type="text/css">
-    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-        </style>
-        <div class="col-md-6" id="mc_embed_signup">
-          <form action="http://quench-juicery.us8.list-manage.com/subscribe/post?u=6be4c9dd7830d338992b4d739&amp;id=fccdfc9162" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            {% editable_text 'signup-text' %}
-              <label for="mce-EMAIL">Sign up for our mailing list</label>
-            {% endeditable_text %}
-            {% editable_text 'signup-subtext %}
-              <span class="deals">&nbsp; * Get special deals and offers</span>
-            {% endeditable_text %}
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;"><input type="text" name="b_6be4c9dd7830d338992b4d739_fccdfc9162" tabindex="-1" value=""></div>
-            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-          </form>
-        </div>
-
-            <!--End mc_embed_signup-->
 
       {% endblock %}
 

@@ -72,7 +72,7 @@ published: true
             <tr>
               <th>{{ product.title }}</th>
               {% unless product.description == '' %}
-                <td>{{ product.description }}</td>
+                <td><span class="green">* </span>{{ product.description }}</td>
               {% endunless %}
             </tr>
           {% endif %}
