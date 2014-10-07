@@ -47,5 +47,5 @@ fields:
     type: select
     select_options: ['smoothie', 'juice', 'specialty', 'seasonal']
     required: false
-    hint: 
+    hint: The type of product in all lowercase (currently supports smoothie, juice, specialty, seasonal)
     localized: false
