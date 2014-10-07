@@ -30,6 +30,7 @@ published: true
       <li class="active"><a href="#smoothies" data-toggle="tab">Smoothies</a></li>
       <li><a href="#juices" data-toggle="tab">Juices</a></li>
       <li><a href="#specialty" data-toggle="tab">Specialty</a></li>
+      <li><a href="#seasonal" data-toggle="tab">Seasonal</a></li>
   </ul>
 
   <!-- Tab panes -->
@@ -42,7 +43,7 @@ published: true
             <tr>
               <th>{{ product.title }}</th>
               {% unless product.description == '' %}
-                <td><span class="green">* </span>{{ product.description }}</td>
+                <td><span class="green">* </span><span>{{ product.description }}</span></td>
               {% endunless %}
             </tr>
           {% endif %}
@@ -57,7 +58,7 @@ published: true
             <tr>
               <th>{{ product.title }}</th>
               {% unless product.description == '' %}
-                <td><span class="pink">* </span>{{ product.description }}</td>
+                <td><span class="pink">* </span><span>{{ product.description }}</span></td>
               {% endunless %}
             </tr>
           {% endif %}
@@ -72,7 +73,22 @@ published: true
             <tr>
               <th>{{ product.title }}</th>
               {% unless product.description == '' %}
-                <td><span class="green">* </span>{{ product.description }}</td>
+                <td><span class="green">* </span><span>{{ product.description }}</span></td>
+              {% endunless %}
+            </tr>
+          {% endif %}
+        {% endfor %}
+      </table>
+    </div>
+
+    <div class="menu-container col-md-10 fade tab-pane" id="seasonal">
+      <table class="table menu">
+        {% for product in contents.products %}
+          {% if product.type == 'seasonal' %}
+            <tr>
+              <th>{{ product.title }}</th>
+              {% unless product.description == '' %}
+                <td><span class="pink">* </span><span>{{ product.description }}</span></td>
               {% endunless %}
             </tr>
           {% endif %}
