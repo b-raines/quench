@@ -44,7 +44,8 @@ fields:
 
 - type: # Name of the field
     label: Type
-    type: string
+    type: select
+    select_options: ['smoothie', 'juice', 'specialty', 'seasonal']
     required: false
-    hint: The type of product in all lowercase (currently supports smoothie, juice, specialty)
+    hint: 
     localized: false
