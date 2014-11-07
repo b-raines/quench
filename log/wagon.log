@@ -19563,3 +19563,25 @@ Found page "Menu" [menu]
 [0;32;49mCompleted 200 OK in 18.5ms
 
 [0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 23:35:59 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 26.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 23:36:12 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 23:36:12 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 22.5ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 23:36:17 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.8ms
+
+[0m

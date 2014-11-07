@@ -26,6 +26,7 @@ published: true
 
   <!-- Nav tabs -->
   <ul class="nav nav-pills nav-stacked menu-nav col-md-2">
+      {% assign type = '' %}
       {% for product in contents.products %}{% if product.type != type %}
         {% assign type = product.type %}
         {% if group.type == 'smoothie' %}
@@ -40,6 +41,7 @@ published: true
 
   <!-- Tab panes -->
   <div class="tab-content">
+    {% assign type = '' %}
     {% for group in contents.products %}{% if group.type != type %}
       {% assign type = group.type %}
       {% if group.type == 'smoothie' %}
