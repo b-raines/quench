@@ -26,9 +26,6 @@ published: true
 
   <!-- Nav tabs -->
   <ul class="nav nav-pills nav-stacked menu-nav col-md-2">
-      <li class="active"><a href="#smoothie" data-toggle="tab">Smoothies</a></li>
-
-      {% assign type = 'smoothie' %}
       {% for product in contents.products %}{% if product.type != type %}
         <li><a href="#{{ product.type }}" data-toggle="tab">{{ product.type | capitalize }}</a></li>
         {% assign type = product.type %}
