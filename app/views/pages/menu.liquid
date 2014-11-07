@@ -26,42 +26,46 @@ published: true
 
   <!-- Nav tabs -->
   <ul class="nav nav-pills nav-stacked menu-nav col-md-2">
-      {% assign type = '' %}
-      {% for product in contents.products %}{% if product.type != type %}
-        {% assign type = product.type %}
-        {% if product.type == 'smoothie' %}
-          {% assign class = 'active' %}
-        {% else %}
-          {% assign class = '' %}
-        {% endif %}
-        <li class="{{class}}"><a href="#{{ product.type }}" data-toggle="tab">{{ product.type | capitalize }}</a></li>
-      {% endif %}{% endfor %}
-  </ul>
+    {% assign type = '' %}
+    {% for type in contents.products.type_options %}
 
+      {% if type == 'smoothie' %}
+        {% assign class = 'active' %}
+      {% else %}
+        {% assign class = '' %}
+      {% endif %}
+
+      <li class="{{class}}"><a href="#{{ type }}" data-toggle="tab">{{ type | capitalize }}</a></li>
+
+    {% endfor %}
+  </ul>
 
   <!-- Tab panes -->
   <div class="tab-content">
-    {% assign type = '' %}
-    {% for group in contents.products %}{% if group.type != type %}
-      {% assign type = group.type %}
-      {% if group.type == 'smoothie' %}
+    {% for type in contents.products.type_options %}
+
+      {% if type == 'smoothie' %}
         {% assign classes = 'fade in active' %}
       {% else %}
         {% assign classes = '' %}
       {% endif %}
-        <div class="menu-container col-md-10 fade tab-pane {{ classes }}" id="{{ group.type }}">
+
+        <div class="menu-container col-md-10 fade tab-pane {{ classes }}" id="{{ type }}">
         <table class="table menu">
-          {% for product in contents.products %}{% if product.type == group.type %}
+          {% for product in contents.products %}{% if product.type == type %}
             <tr>
               <th>{{ product.title }}</th>
+
               {% unless product.description == '' %}
                 <td class="description"><span class="star">* </span><span>{{ product.description }}</span></td>
               {% endunless %}
+
             </tr>
           {% endif %}{% endfor %}
         </table>
       </div>
-    {% endif %}{% endfor %}
+
+    {% endfor %}
   </div>
 
 {% endblock %}

@@ -19585,3 +19585,87 @@ Found page "Menu" [menu]
 [0;32;49mCompleted 200 OK in 18.8ms
 
 [0m
+* Reloaded "pages", "snippets" at 2014-11-06 23:39:21 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 23:39:29 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Expected end_of_string but found id in "{{ 'active' if product.type == 'smoothie' }}" - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 23:39:34 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 23:40:39 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 23:47:14 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 23:47:16 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 23:47:44 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 23:47:45 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 19.5ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 23:47:46 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 21.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 23:47:54 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 23:47:54 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.5ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 23:47:55 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 20.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 23:48:03 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 23:48:03 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 17.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 23:48:08 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 23:48:08 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 19.7ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 23:48:09 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 17.3ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 23:48:10 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 17.6ms
+
+[0m
+ (500)
+unable to get an API token:  (500)
+ (500)
+unable to get an API token:  (500)
+ (500)
+unable to get an API token:  (500)
+      template => Liquid Syntax error ('Unknown tag 'endif'' on 'menu')
+      raw_template => Liquid Syntax error ('Unknown tag 'endif'' on 'menu')
