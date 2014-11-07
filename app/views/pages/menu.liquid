@@ -27,34 +27,27 @@ published: true
   <!-- Nav tabs -->
   <ul class="nav nav-pills nav-stacked menu-nav col-md-2">
       {% for product in contents.products %}{% if product.type != type %}
-        <li><a href="#{{ product.type }}" data-toggle="tab">{{ product.type | capitalize }}</a></li>
         {% assign type = product.type %}
+        {% if group.type == 'smoothie' %}
+          {% assign class = 'active' %}
+        {% else %}
+          {% assign class = '' %}
+        {% endif %}
+        <li class="{{class}}"><a href="#{{ product.type }}" data-toggle="tab">{{ product.type | capitalize }}</a></li>
       {% endif %}{% endfor %}
   </ul>
 
 
   <!-- Tab panes -->
   <div class="tab-content">
-
-    <div class="menu-container col-md-10 tab-pane fade in active" id="smoothie">
-      <table class="table menu">
-        {% for product in contents.products %}
-          {% if product.type == 'smoothie' %}
-            <tr>
-              <th>{{ product.title }}</th>
-              {% unless product.description == '' %}
-                <td><span class="star">* </span><span>{{ product.description }}</span></td>
-              {% endunless %}
-            </tr>
-          {% endif %}
-        {% endfor %}
-      </table>
-    </div>
-
-    {% assign type = 'smoothie' %}
     {% for group in contents.products %}{% if group.type != type %}
       {% assign type = group.type %}
-        <div class="menu-container col-md-10 fade tab-pane" id="{{ group.type }}">
+      {% if group.type == 'smoothie' %}
+        {% assign classes = 'fade in active' %}
+      {% else %}
+        {% assign classes = '' %}
+      {% endif %}
+        <div class="menu-container col-md-10 fade tab-pane {{ classes }}" id="{{ group.type }}">
         <table class="table menu">
           {% for product in contents.products %}{% if product.type == group.type %}
             <tr>
