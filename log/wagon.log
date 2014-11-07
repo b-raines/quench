@@ -19099,3 +19099,10 @@ Found page "Menu" [menu]
 [0;32;49mCompleted 200 OK in 20.1ms
 
 [0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:42:53 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.4ms
+
+[0m

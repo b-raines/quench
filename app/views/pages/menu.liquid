@@ -28,10 +28,10 @@ published: true
   <ul class="nav nav-pills nav-stacked menu-nav col-md-2">
       <li class="active"><a href="#smoothie" data-toggle="tab">Smoothies</a></li>
 
-      {% assign category = 'smoothie' %}
-      {% for product in contents.products %}{% if product.category != category %}
-        <li><a href="#{{ product.category }}" data-toggle="tab">{{ product.category | capitalize }}</a></li>
-        {% assign category = product.category %}
+      {% assign type = 'smoothie' %}
+      {% for product in contents.products %}{% if product.type != type %}
+        <li><a href="#{{ product.type }}" data-toggle="tab">{{ product.type | capitalize }}</a></li>
+        {% assign type = product.type %}
       {% endif %}{% endfor %}
   </ul>
 
@@ -42,7 +42,7 @@ published: true
     <div class="menu-container col-md-10 tab-pane fade in active" id="smoothie">
       <table class="table menu">
         {% for product in contents.products %}
-          {% if product.category == 'smoothie' %}
+          {% if product.type == 'smoothie' %}
             <tr>
               <th>{{ product.title }}</th>
               {% unless product.description == '' %}
@@ -54,12 +54,12 @@ published: true
       </table>
     </div>
 
-    {% assign category = 'smoothie' %}
-    {% for group in contents.products %}{% if group.category != category %}
-      {% assign category = group.category %}
-        <div class="menu-container col-md-10 fade tab-pane" id="{{ group.category }}">
+    {% assign type = 'smoothie' %}
+    {% for group in contents.products %}{% if group.type != type %}
+      {% assign type = group.type %}
+        <div class="menu-container col-md-10 fade tab-pane" id="{{ group.type }}">
         <table class="table menu">
-          {% for product in contents.products %}{% if product.category == group.category %}
+          {% for product in contents.products %}{% if product.type == group.type %}
             <tr>
               <th>{{ product.title }}</th>
               {% unless product.description == '' %}

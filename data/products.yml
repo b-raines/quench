@@ -1,83 +1,83 @@
 - "Island Breeze":
     description: "Mango, Pineapple, Strawberry, Banana, Coconut flakes, Raw Honey, and Almond Milk"
-    category: "smoothie"
+    type: "smoothie"
 
 - "Vanilla Volcano":
     description: "Fresh Spinach, Strawberry, Pineapple, Banana, with a hint of Vanilla Extract, Raw Honey, and Fat Free Yogurt"
-    category: "smoothie"
+    type: "smoothie"
 
 - "Berry Blast":
     description: "Blueberry, Strawberry, Raspberry, Blackberry, Fat Free Yogurt, and Agave Nectar"
-    category: "smoothie"
+    type: "smoothie"
 
 - "Peggotty Punch":
     description: "Mango, Bell Pepper, Blueberry, Spinach, Hemp Protein, Agave, and Coconut Milk"
-    category: "smoothie"
+    type: "smoothie"
 
 - "Muscle Beach":
     description: "Blueberry, Strawberry, Banana, Whey Protein, All Natural Peanut Butter, and Chocolate Almond Milk"
-    category: "smoothie"
+    type: "smoothie"
 
 - "Focus Pocus":
     description: "Orange, Blueberry, Gingko Biloba Powder, Semi-sweet cocoa, and Coconut Milk"
-    category: "smoothie"
+    type: "smoothie"
 
 - "Morning Buzz":
     description: "Banana, All Natural Peanut Butter, Greek Yogurt, Almond Milk, Cinnamon, and Coffee"
-    category: "smoothie"
+    type: "smoothie"
 
 - "Liquid Sunshine":
     description: "Apple, Carrot, Strawberry, Orange, Raspberry, and Kale"
-    category: "juice"
+    type: "juice"
 
 - '"C" Turtle':
     description: "Orange, Apple, Lime, Grapefruit, Papaya, and Mint"
-    category: "juice"
+    type: "juice"
 
 - "Green Machine":
     description: "Kale, Spinach, Celery, Kiwi, Cucumber, and Mint"
-    category: "juice"
+    type: "juice"
 
 - "Dottie's Detox":
     description: "Cucumber, Apple, Ginger, Lemon, and Mint (optional: add cayenne)"
-    category: "juice"
+    type: "juice"
 
 - "Cold Kicker":
     description: "Grapefruit, Apple, Kiwi, Ginger, Cayenne"
-    category: "juice"
+    type: "juice"
 
 - "Can't be Beet":
     description: "Carrot, Apple, Orange, Beet, and Ginger"
-    category: "juice"
+    type: "juice"
 
 - "Bloody Boring":
     description: "Fresh Tomato, Lemon, Lime, Celery, Cilantro, Horseradish, and Sriracha!"
-    category: "juice"
+    type: "juice"
 
 - "Wheat Grass Shot":
     description: "One shot of wheatgrass is equivalent to 2 pounds of vegetables!  Locally grown right up the road at R&C Farms in Scituate!"
-    category: "specialty"
+    type: "specialty"
 
 - "Ginger Shot":
     description: 'Everyone''s favorite "anti"!  Anti-viral, anti-septic, anti-histamine, anti-inflammatory and just great if you have a head cold or sinus congestion!'
-    category: "specialty"
+    type: "specialty"
 
 - "Specialty Shot":
     description: "Locally grown wheatgrass with your choice of strawberry, blueberry, blackberry, or raspberry for added flavor!"
-    category: "specialty"
+    type: "specialty"
 
 - "Homemade Cashew Milk":
     description: "Raw cashews soaked for 4 hours then blended; add cinnamon, honey, sea salt, and vanilla!"
-    category: "specialty"
+    type: "specialty"
 
 - "Almond Butter":
     description: "Raw almonds blended up; add coconut oil, and sea salt!"
-    category: "specialty"
+    type: "specialty"
 
 - "Bianca's Raw Energy Bites":
     description: "Secret recipe, come in and have a bite!"
-    category: "specialty"
+    type: "specialty"
 
 - "Seasonal item":
     description: "Secret recipe, come in and have a bite!"
-    category: "seasonal"
+    type: "seasonal"
