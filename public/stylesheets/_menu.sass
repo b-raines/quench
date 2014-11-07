@@ -7,9 +7,6 @@ $green: #00AF40
 $dark_gray: #777
 $pink: #FF4368
 
-.tab-content
-  margin-top: 50px
-
 .menu
   tr
     height: 60px
@@ -22,17 +19,18 @@ $pink: #FF4368
     font-size: 18px
     width: 180px
 
-#smoothies td
-  color: $pink
-
-#juices td
-  color: $green
-
-#specialty td
-  color: $orange
-
-#seasonal td
-  color: $green
+.tab-content
+  margin-top: 50px
+  .menu-container:nth-child(odd)
+    td
+      color: $pink
+      .star
+        color: $green
+  .menu-container:nth-child(even)
+    td
+      color: $green
+      .star
+        color: $pink
 
 .menu-nav
   font-family: 'Gloria Hallelujah', cursive
@@ -49,10 +47,6 @@ $pink: #FF4368
   .active a
     color: $orange !important
     background-color: white !important
-
-#specialty
-  th
-    width: 260px
 
 .menu-nav li
   margin: 0 auto !important

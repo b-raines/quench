@@ -260,43 +260,44 @@
   }
 }
 /* Variables */
-/* line 10, _menu.sass */
-.tab-content {
-  margin-top: 50px;
-}
-
-/* line 14, _menu.sass */
+/* line 11, _menu.sass */
 .menu tr {
   height: 60px;
   font-family: "Gloria Hallelujah", cursive;
 }
-/* line 17, _menu.sass */
+/* line 14, _menu.sass */
 .menu tr:nth-child(odd) {
   background-color: rgba(0, 0, 0, 0.05);
 }
-/* line 20, _menu.sass */
+/* line 16, _menu.sass */
 .menu td {
   font-size: 16px;
 }
-/* line 22, _menu.sass */
+/* line 18, _menu.sass */
 .menu th {
   font-size: 18px;
   width: 180px;
 }
 
-/* line 26, _menu.sass */
-#smoothies td {
+/* line 22, _menu.sass */
+.tab-content {
+  margin-top: 50px;
+}
+/* line 25, _menu.sass */
+.tab-content .menu-container:nth-child(odd) td {
   color: #ff4368;
 }
-
-/* line 29, _menu.sass */
-#juices td {
+/* line 27, _menu.sass */
+.tab-content .menu-container:nth-child(odd) td .star {
   color: #00af40;
 }
-
+/* line 30, _menu.sass */
+.tab-content .menu-container:nth-child(even) td {
+  color: #00af40;
+}
 /* line 32, _menu.sass */
-#specialty td {
-  color: #ff6b00;
+.tab-content .menu-container:nth-child(even) td .star {
+  color: #ff4368;
 }
 
 /* line 35, _menu.sass */
@@ -323,12 +324,7 @@
   background-color: white !important;
 }
 
-/* line 52, _menu.sass */
-#specialty th {
-  width: 260px;
-}
-
-/* line 55, _menu.sass */
+/* line 51, _menu.sass */
 .menu-nav li {
   margin: 0 auto !important;
   width: 130px;

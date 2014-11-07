@@ -11,13 +11,13 @@ description: Any menu items (ie. smoothies, juices, specialty items)
 label_field_name: title
 
 # Order of entries
-order_by: manually # default: manually, also available: created_at or any field slug
+order_by: category # default: manually, also available: created_at or any field slug
 
 # Order direction
 # order_direction: asc # default: asc, also available: desc
 
 # Display entries grouped by <field> in the backoffice
-group_by: type
+group_by: category
 
 # Activate public 'create' API (e.g for a contact form)
 # public_submission_enabled: false
@@ -42,10 +42,10 @@ fields:
     localized: false
     text_formatting: html
 
-- type: # Name of the field
-    label: Type
+- category: # Name of the field
+    label: Category
     type: select
     select_options: ['smoothie', 'juice', 'specialty', 'seasonal']
     required: false
-    hint: The type of product in all lowercase (currently supports smoothie, juice, specialty, seasonal)
+    hint: The category of product in all lowercase (currently supports smoothie, juice, specialty, seasonal)
     localized: false

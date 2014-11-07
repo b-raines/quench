@@ -17906,3 +17906,1196 @@ Found page "Home" [index]
       template => Liquid Syntax error ('Error in the footer block for the footer editable_element - No liquid tags are allowed inside.' on 'index')
       raw_template => Liquid Syntax error ('Error in the footer block for the footer editable_element - No liquid tags are allowed inside.' on 'index')
 unable to get an API token: Connection refused - connect(2)
+[0;97;49mStarted GET "/" at 2014-10-18 13:18:52 -0400[0m
+Detecting locale EN
+Found page "Home" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 90.0ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-10-18 13:18:54 -0400[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.6ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-11-06 20:55:06 -0500[0m
+Detecting locale EN
+Found page "Home" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 42.4ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 20:55:09 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Unknown tag 'endif' - ./app/views/pages/menu.liquid:34:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 20:55:33 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 20:55:48 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 20:55:48 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 20:58:09 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 20:58:10 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `types' for #<Locomotive::Mounter::Models::ContentType:0x007fba5521a928> - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 20:58:22 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:00:24 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:00:24 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `types' for #<Locomotive::Mounter::Models::ContentType:0x007fba5521a928> - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:00:32 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:00:33 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:00:51 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:00:52 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:06:36 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:06:38 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `type' for #<Locomotive::Mounter::Models::ContentType:0x007fba5521a928> - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:07:03 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:07:04 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:07:21 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:07:22 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:07:31 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:07:32 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:14:03 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:14:52 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:14:54 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Unknown tag 'endfor' - ./app/views/pages/menu.liquid:31:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:15:08 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:15:08 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:15:33 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:15:33 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:15:43 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:15:52 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:15:53 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:15:57 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:16:03 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:16:04 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.3ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:16:05 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:16:09 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:16:09 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 38.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:18:29 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:18:36 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:18:38 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `type' for #<Locomotive::Mounter::Models::ContentType:0x007fba5521a928> - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:18:49 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:18:49 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `size' for nil:NilClass - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:18:55 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:18:56 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:19:00 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:19:18 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:19:18 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `type' for #<Locomotive::Mounter::Models::ContentType:0x007fba5521a928> - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:20:42 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:20:43 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `type' for #<Locomotive::Mounter::Models::ContentType:0x007fba5521a928> - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:20:45 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `type' for #<Locomotive::Mounter::Models::ContentType:0x007fba5521a928> - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:21:11 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:21:12 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `type' for #<Locomotive::Mounter::Models::ContentType:0x007fba5521a928> - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:21:40 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:21:41 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 14.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:22:06 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:22:07 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `title' for #<Locomotive::Mounter::Models::ContentType:0x007fba5521a928> - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:22:12 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:22:23 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:22:23 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `size' for nil:NilClass - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:22:29 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:22:47 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:22:48 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `first' for nil:NilClass - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:22:55 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:23:15 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:23:19 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:23:28 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:23:28 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.9ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:23:29 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:23:42 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:23:43 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:23:47 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:24:01 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:24:01 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.7ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:24:04 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 14.5ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:24:34 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:24:34 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:24:48 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:24:49 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:25:02 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:25:02 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.8ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:25:04 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:25:07 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:25:07 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:25:12 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:25:16 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:25:17 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:25:27 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:25:27 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:25:32 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:25:33 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:25:39 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:25:45 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:26:01 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:26:01 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:26:09 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:26:09 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:26:12 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:26:18 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:26:18 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:26:40 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:28:04 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:28:40 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:28:45 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:28:46 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Expected end_of_string but found pipe in "product in contents.products | sort: 'type'" - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:29:18 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:29:19 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Expected end_of_string but found pipe in "product in contents.products | sort: 'type'" - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:29:27 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:29:27 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 17.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:30:15 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:30:19 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `type' for #<Locomotive::Mounter::Models::ContentType:0x007fba5521a928> - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:31:00 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:31:00 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `each' for nil:NilClass - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:32:49 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:32:56 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:33:25 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.4ms
+
+[0m
+* Reloaded "content_types", "content_entries" at 2014-11-06 21:38:44 -0500
+["/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_entry.rb:193:in `method_missing'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:80:in `block (2 levels) in build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `tap'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:48:in `block (2 levels) in reload'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:40:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:40:in `block in reload'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter.rb:95:in `with_locale'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:39:in `reload'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon/listen.rb:39:in `block in apply'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/listener.rb:212:in `call'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/listener.rb:212:in `on_change'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/listener.rb:221:in `block in initialize_adapter'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapter.rb:198:in `call'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapter.rb:198:in `report_changes'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapter.rb:210:in `poll_changed_dirs'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapters/darwin.rb:38:in `block in start'"]
+The 'products' content type does not have a field named 'type'.
+The 'products' content type does not have a field named 'type'.
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:86:in `rescue in block (2 levels) in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:74:in `block (2 levels) in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `tap'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:48:in `block (2 levels) in reload'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:40:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:40:in `block in reload'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter.rb:95:in `with_locale'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:39:in `reload'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon/listen.rb:39:in `block in apply'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/listener.rb:212:in `call'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/listener.rb:212:in `on_change'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/listener.rb:221:in `block in initialize_adapter'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapter.rb:198:in `call'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapter.rb:198:in `report_changes'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapters/darwin.rb:38:in `block in start'
+
+
+* Reloaded "content_types", "content_entries" at 2014-11-06 21:38:46 -0500
+["/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_entry.rb:193:in `method_missing'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:80:in `block (2 levels) in build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `tap'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:48:in `block (2 levels) in reload'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:40:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:40:in `block in reload'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter.rb:95:in `with_locale'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:39:in `reload'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon/listen.rb:39:in `block in apply'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/listener.rb:212:in `call'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/listener.rb:212:in `on_change'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/listener.rb:221:in `block in initialize_adapter'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapter.rb:198:in `call'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapter.rb:198:in `report_changes'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapter.rb:210:in `poll_changed_dirs'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapters/darwin.rb:38:in `block in start'"]
+The 'products' content type does not have a field named 'type'.
+The 'products' content type does not have a field named 'type'.
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:86:in `rescue in block (2 levels) in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:74:in `block (2 levels) in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `tap'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:48:in `block (2 levels) in reload'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:40:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:40:in `block in reload'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter.rb:95:in `with_locale'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:39:in `reload'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon/listen.rb:39:in `block in apply'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/listener.rb:212:in `call'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/listener.rb:212:in `on_change'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/listener.rb:221:in `block in initialize_adapter'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapter.rb:198:in `call'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapter.rb:198:in `report_changes'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/listen-0.7.3/lib/listen/adapters/darwin.rb:38:in `block in start'
+
+
+* Reloaded "pages", "snippets" at 2014-11-06 21:39:25 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:39:27 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:39:32 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `each' for nil:NilClass - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:39:57 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:39:57 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Unknown tag 'endif' - ./app/views/pages/menu.liquid:51:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:40:05 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:40:05 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `each' for nil:NilClass - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:40:27 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:40:39 -0500
+["/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_entry.rb:193:in `method_missing'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:80:in `block (2 levels) in build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `tap'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon.rb:169:in `require_mounter'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon.rb:24:in `serve'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon/cli.rb:179:in `serve'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/bin/wagon:9:in `<top (required)>'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/wagon:23:in `load'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/wagon:23:in `<main>'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/ruby_executable_hooks:15:in `eval'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/ruby_executable_hooks:15:in `<main>'"]
+The 'products' content type does not have a field named 'type'.
+The 'products' content type does not have a field named 'type'.
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:86:in `rescue in block (2 levels) in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:74:in `block (2 levels) in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `tap'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon.rb:169:in `require_mounter'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon/cli.rb:179:in `serve'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/bin/wagon:9:in `<top (required)>'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/wagon:23:in `load'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/wagon:23:in `<main>'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/ruby_executable_hooks:15:in `eval'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/ruby_executable_hooks:15:in `<main>'
+
+
+["/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_entry.rb:193:in `method_missing'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:80:in `block (2 levels) in build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `tap'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon.rb:169:in `require_mounter'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon.rb:24:in `serve'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon/cli.rb:179:in `serve'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/bin/wagon:9:in `<top (required)>'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/wagon:23:in `load'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/wagon:23:in `<main>'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/ruby_executable_hooks:15:in `eval'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/ruby_executable_hooks:15:in `<main>'"]
+The 'products' content type does not have a field named 'type'.
+The 'products' content type does not have a field named 'type'.
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:86:in `rescue in block (2 levels) in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:74:in `block (2 levels) in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `tap'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon.rb:169:in `require_mounter'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon/cli.rb:179:in `serve'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/bin/wagon:9:in `<top (required)>'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/wagon:23:in `load'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/wagon:23:in `<main>'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/ruby_executable_hooks:15:in `eval'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/ruby_executable_hooks:15:in `<main>'
+
+
+["/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_entry.rb:193:in `method_missing'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:80:in `block (2 levels) in build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `tap'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon.rb:169:in `require_mounter'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon.rb:24:in `serve'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon/cli.rb:179:in `serve'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/bin/wagon:9:in `<top (required)>'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/wagon:23:in `load'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/wagon:23:in `<main>'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/ruby_executable_hooks:15:in `eval'", "/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/ruby_executable_hooks:15:in `<main>'"]
+The 'products' content type does not have a field named 'type'.
+The 'products' content type does not have a field named 'type'.
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:86:in `rescue in block (2 levels) in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:74:in `block (2 levels) in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `tap'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_mounter-1.4.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon.rb:169:in `require_mounter'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/lib/locomotive/wagon/cli.rb:179:in `serve'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/gems/locomotivecms_wagon-1.4.0/bin/wagon:9:in `<top (required)>'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/wagon:23:in `load'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/wagon:23:in `<main>'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/ruby_executable_hooks:15:in `eval'
+	/Users/user/.rvm/gems/ruby-2.0.0-p451/bin/ruby_executable_hooks:15:in `<main>'
+
+
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:44:30 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 20.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:46:19 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:46:37 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:46:40 -0500[0m
+Detecting locale EN
+Found page "Menu" [*]
+* Reloaded "pages", "snippets" at 2014-11-06 21:46:49 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:46:50 -0500[0m
+Detecting locale EN
+Found page "Menu" [*]
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:46:51 -0500[0m
+Detecting locale EN
+Found page "Menu" [*]
+* Reloaded "pages", "snippets" at 2014-11-06 21:46:57 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:46:58 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 20.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:47:01 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:47:05 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:47:12 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:47:13 -0500[0m
+Detecting locale EN
+Found page "Menu" [*]
+[0;32;49mCompleted 404 Not Found in 2.7ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:47:15 -0500[0m
+Detecting locale EN
+Found page "Menu" [*]
+[0;32;49mCompleted 404 Not Found in 3.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:47:26 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:47:27 -0500[0m
+Detecting locale EN
+Found page "Menu" [*]
+[0;32;49mCompleted 404 Not Found in 2.9ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:47:28 -0500[0m
+Detecting locale EN
+Found page "Menu" [*]
+[0;32;49mCompleted 404 Not Found in 2.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:47:34 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:47:36 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 17.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:50:20 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:50:32 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:50:34 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 75.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:52:17 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:52:17 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:52:52 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:52:54 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Unknown tag 'endfor' - ./app/views/pages/menu.liquid:31:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:53:06 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:53:07 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 17.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:53:15 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:53:16 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.8ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:53:17 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 37.9ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:53:36 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 17.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:53:36 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:53:37 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Syntax Error in 'assign' - Valid syntax: assign [var] = [source] - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:53:39 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Syntax Error in 'assign' - Valid syntax: assign [var] = [source] - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:53:42 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:53:43 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 21.2ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:53:44 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 17.1ms
+
+[0m
+* Reloaded "content_entries" at 2014-11-06 21:54:37 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:54:39 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 50.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:55:24 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:56:19 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:56:20 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 19.4ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:56:21 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 20.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 21:56:39 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 21:57:21 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 21:57:22 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `category' for #<Locomotive::Mounter::Models::ContentType:0x007fd1243baae0> - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:00:11 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:00:23 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Unknown tag 'categories' - ./app/views/pages/menu.liquid:29:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:00:36 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:00:36 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Unknown tag 'categories' - ./app/views/pages/menu.liquid:30:in `Menu'
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:00:38 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Unknown tag 'categories' - ./app/views/pages/menu.liquid:30:in `Menu'
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:00:46 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Unknown tag 'categories' - ./app/views/pages/menu.liquid:30:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:02:08 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 22:02:19 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:02:20 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Unknown tag 'categories' - ./app/views/pages/menu.liquid:30:in `Menu'
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:02:22 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Unknown tag 'categories' - ./app/views/pages/menu.liquid:30:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:02:51 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:02:54 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 26.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:03:23 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:03:23 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 47.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:03:41 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:03:41 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 21.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:03:44 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 22:04:15 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:04:15 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Unexpected character = in "{{ assign categories = category | plus: product.category }}" - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:04:26 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:04:29 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 21.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:04:38 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:04:39 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 38.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:04:57 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 22:04:58 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:04:59 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 23.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:05:59 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:06:01 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Unknown tag 'categories' - ./app/views/pages/menu.liquid:30:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:06:06 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 22:06:14 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:06:17 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 21.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:06:24 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:06:25 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 20.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:06:38 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 22:06:39 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:06:39 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 20.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:08:05 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:08:06 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 22.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:08:19 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:08:20 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 23.4ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:08:22 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 39.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:08:54 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:08:54 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 26.0ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:08:55 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 23.7ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:08:56 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 22.1ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:08:57 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 21.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:09:35 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:09:36 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 23.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:10:13 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 22:10:29 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:10:40 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 38.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:11:40 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:11:40 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 20.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:13:19 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:13:21 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] Unexpected character = in "product.category = group.category" - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:13:34 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:13:35 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 48.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:14:52 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:15:24 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 68.7ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:15:36 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 53.6ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:15:38 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 73.0ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:15:49 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 72.7ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:15:50 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 53.7ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:16:04 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 76.1ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:18:08 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 71.3ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:18:21 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 54.3ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:19:04 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 53.8ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:19:49 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 71.8ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:19:59 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 52.8ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:21:42 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 74.7ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:22:15 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 69.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:22:52 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:23:09 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 51.1ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:23:35 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 73.5ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:28:25 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 71.8ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:29:14 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 51.1ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:30:23 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 70.5ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:30:50 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 52.0ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:31:26 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 71.8ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:32:05 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 69.4ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:32:24 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 53.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:35:25 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:35:29 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 71.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:38:07 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:38:13 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+[0;31;49m[ERROR] undefined method `each' for nil:NilClass - ./app/views/pages/menu.liquid:23:in `Menu'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:38:20 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:38:21 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 75.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:38:50 -0500
+* Reloaded "pages", "snippets" at 2014-11-06 22:39:11 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:39:14 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 20.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-06 22:39:39 -0500
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:39:39 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.0ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:40:02 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 39.5ms
+
+[0m
+[0;97;49mStarted GET "/menu" at 2014-11-06 22:40:19 -0500[0m
+Detecting locale EN
+Found page "Menu" [menu]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 20.1ms
+
+[0m
